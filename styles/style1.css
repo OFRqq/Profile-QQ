@@ -8,6 +8,7 @@
 
 body{
     overflow-y:hidden;
+    background-color: darkgrey;
     margin:0;
     padding:0;
 }
@@ -47,15 +48,17 @@ div.container {
 }
 
 div.page-align{
-    height:100vh;
+    margin:20vh 0;
+    height:80vh;
     width:100%;
     display:grid;
     justify-content: center;
     align-items: center;
     border:2px solid rgba(255, 0, 0, 0.973);
     scroll-snap-align: center;
+    border-radius: 80px;
 }
 
-.slide2 {
-    display:grid;
+.slide1 {
+
 }
