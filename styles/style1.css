@@ -8,10 +8,17 @@
 
 body{
     overflow-y:hidden;
-    background-color: darkgrey;
+    background-image: url("../assets/testbackground.jpg");
     margin:0;
     padding:0;
     height:100%;
+    background-size:150%;
+    background-repeat:no-repeat;
+}
+
+img {
+    height:100%;
+
 }
 
 ul.header{
@@ -49,6 +56,7 @@ div.container {
 }
 
 div.page-align{
+    backdrop-filter: blur(8px);
     height:80%;
     width:90%;
     margin:5%;
