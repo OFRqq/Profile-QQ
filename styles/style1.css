@@ -13,7 +13,7 @@ body{
     height:100%;
     background-color: #e5e5f7;
     opacity: 1;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 20px ), repeating-linear-gradient( #444cf755, #444cf7 );
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 20px ), repeating-linear-gradient( #ff191967, #dbdbdb );
 }
 
 
@@ -62,7 +62,7 @@ div.page-align{
     display:grid;
     justify-content: center;
     align-items: center;
-    border:2px solid rgba(255, 0, 0, 0.973);
+    border:2px solid rgb(255, 0, 0);
     scroll-snap-align: center;
     border-radius: 80px;
 }
