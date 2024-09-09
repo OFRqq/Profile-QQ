@@ -52,6 +52,7 @@ div.container {
 
 div.page-align{
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
     height:80%;
     width:90%;
     margin:5%;
