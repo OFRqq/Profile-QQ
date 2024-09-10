@@ -13,7 +13,7 @@ body{
     margin:0;
     padding:0;
     height:100%;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 20px ), repeating-linear-gradient( #ff191967, #005effb2 );
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 20px ), repeating-linear-gradient( #ff1919af, #005effd3 );
     }
 
 ul.header{
@@ -24,6 +24,9 @@ ul.header{
     padding:1vh 0 0;
     gap:10px;
     background-color: #6f00ff00;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 15px;
 }
 
 li.header {
@@ -52,7 +55,6 @@ img.QLEQ{
 }
 
 #color:hover {
-    background-color:rgba(255, 255, 255, 0.473);
     text-shadow: 4px 0 4px #FE0000, 6px 0 4px #005DFF;
     transition: 0.5s;
     border-radius: 15px;
