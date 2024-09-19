@@ -13,6 +13,8 @@ body{
     margin:0;
     padding:0;
     height:100%;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 20px ), repeating-linear-gradient( #ff1919af, #005effd3 );
     }
 
@@ -24,8 +26,6 @@ ul.header{
     padding:1vh 0 0;
     gap:10px;
     background-color: #6f00ff00;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
     border-radius: 15px;
 }
 
@@ -63,15 +63,13 @@ img.QLEQ{
 div.container {
     scroll-snap-type:y mandatory;
     overflow-y:scroll;
-    height:80vh;
+    height:90vh;
 }
 
 div.page-align{
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    height:80%;
-    width:90%;
-    margin:5%;
+    height:90%;
+    width:100%;
+    margin:5% 0;
     display:grid;
     justify-content: center;
     align-items: center;
@@ -81,6 +79,8 @@ div.page-align{
 }
 
 .slide1 {
+    text-align:center;
+    
 
 }
 
